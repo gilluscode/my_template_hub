@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  
+
+hr {
+    border: 1px solid #D2B48C;
+}
+
+
+  /*Header Area*/
+  header {
+    width: 100%;
+    color: #D2B48C; 
+    background-color:  rgb(48, 51, 54); 
+}
+
+header b {
+    color: #D2B48C;   
+}
+
+
+/*Note Area*/
+
+.notepad {
+    margin-top: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 80%;
+}
+
+
+article {
+    text-align: justify;
+    padding: 40px;
+}
+
+
+/*Footer area*/
+
+.beef {
+    background-color: rgb(48, 51, 54);  
+    color: #D2B48C;
+}
+    
+footer {
+    background-color: rgb(48, 51, 54);
+    color:#D2B48C;
+    z-index: 9;
+}
+    
+.social {
+    color: #D2B48C;
+}
+    
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+    
+.fa-instagram {
+    background: #833ab4;
+    color: white;
+}
+    
+.fa-facebook {
+    background: #1877f2;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .notepad {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+}
