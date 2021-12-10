@@ -1,0 +1,113 @@
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.hr {
+   color: solid 25px #D2B48C; ; 
+}
+
+header {
+    width: 100%;
+    background-color:  rgb(48, 51, 54); 
+    color: #D2B48C; 
+}
+
+.w3-container {
+  padding: 0px;
+}
+
+.banner {
+    
+    
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+
+}
+
+    .banner:nth-child(1) {
+        background-image: url(img/inspire.jpg);
+      }
+
+    .banner:nth-child(2) {
+        background-image: url(img/stories.jpg);
+      }
+
+    .banner:nth-child(3) {
+        background-image: url(img/mixta.gozo.jpg);
+      }
+
+
+
+
+/* Demo Styles */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+
+
+
+/*bottom*/
+
+.beef {
+    background-color: rgb(48, 51, 54);  
+    color: #D2B48C;
+    
+}
+
+footer {
+    background-color: rgb(48, 51, 54);
+    color:#D2B48C;
+}
+
+.social {
+    color: #D2B48C;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  @media (max-width: 540px) { 
+    .mebox {
+    padding: 25px;
+    margin: 5px;
+    left:auto;
+    right: auto;
+    
+    }
+
+        
+       
+
+       
+
+
+   }
+  

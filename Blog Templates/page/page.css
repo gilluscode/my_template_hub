@@ -1,0 +1,283 @@
+ody,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Page Header */
+
+header {
+    width: 100%;
+    background-color: rgb(188, 191, 194);
+    
+}
+
+.subheader {
+   background-color: rgb(48, 51, 54); 
+}
+
+.subheader b  {
+    color:#D2B48C;
+    font-size: xx-large;
+}
+
+.subheader p  {
+    color:#D2B48C;
+    font-size: large;
+}
+
+
+/* Page Style */
+
+hr {
+    
+    border-color: black;
+
+}
+
+
+
+
+/* Section Style */
+
+/* Page Colour */
+.panor1 {
+    background-color: rgb(188, 191, 194);    
+    }
+    
+
+
+
+
+
+/* Section 1 Styles */
+
+.bck {
+    
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section1article {
+    
+    background-color: rgb(188, 191, 194);
+    position: relative;
+    left: 30%;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: justify;
+    color: black;
+    margin-bottom: 180px;
+    
+}
+
+
+.section1article h1 {
+    
+    text-align: center;
+}
+
+
+
+.card {
+    width: 670px;
+    opacity: 0.8;
+}
+
+/* Section Portrait Styles */
+
+
+
+.sectionParticle {
+    position: relative;
+    max-width: 1700px;
+    margin-left: 85px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: justify;
+    color: black;
+}
+
+.portrait {
+    position: relative;
+    left: 35%;
+}
+
+/* Section 2 Styles */
+
+
+.section2article {
+    position: relative;
+    left: 30%;
+    margin-top: 10px;
+    
+    padding: 20px;
+    text-align: justify;
+    color: black;
+    
+}
+
+.section2article h1 {
+    text-align: center;
+}
+
+
+.panor2 {
+    background-color:black;
+    margin: 10px;
+    
+    
+}
+
+.art {
+    width: 670px;
+    opacity: 0.8;
+    
+}
+
+
+
+/* Section 3 Styles */
+
+.con {
+    padding-left: 40px;
+    background-color: rgb(188, 191, 194);
+}
+
+.section3article {
+    position: relative;
+    margin-top: 10px;
+    padding: 80px;
+    text-align: justify;
+    color: black;
+}
+
+.section3article h1 {
+    text-align: center;
+}
+
+.section3image {
+    margin-top: 60px;
+    margin-left: 140px;
+}
+
+
+
+
+
+
+/* Section 4 Styles */
+
+.section4article {
+    position: relative;
+    left: 30%;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: justify;
+    color: black;
+}
+
+.section4article h1 {
+    text-align: center;
+}
+
+.d-ref {
+    text-align: left;
+}
+
+
+/* Section 5 Styles */
+
+.section5article {
+    position: relative;
+    left: 30%;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: justify;
+    color: black;
+   
+}
+
+.section5article h1 {
+    text-align: center;
+}
+
+
+.four {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+    
+}
+
+
+/* Research Area */
+ol.a {
+    list-style-type: circle;
+  }
+
+
+
+/* Footer Area */
+
+.menu {
+    width: 100%;
+    background-color: rgb(48, 51, 54);
+    color: #D2B48C;
+    
+}
+
+
+footer {
+    background-color: rgb(48, 51, 54);
+    color:#D2B48C;
+}
+
+
+.social {
+    color: #D2B48C;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+
+
+
+
+
+  @media (max-width: 550px) { 
+    .story {
+    padding: 5px;
+    margin: 5px;
+    }
+
+    .story p {
+        padding: 0px;
+    }
+   }
+  
+
