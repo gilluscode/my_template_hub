@@ -8,6 +8,11 @@
 </head>
 <body>
     <style>
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
     
 section {
 	padding: 25vmin;
@@ -25,11 +30,47 @@ article h1 {
     text-align: center;
 
 }
+
+article p {
+    font-size: large;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(39, 37, 37);
+    height: 200px;
+    display: block;
+    padding: 10px;
+}
+
+footer p {
+    color: floralwhite;
+    text-align: center;
+}
+
+a {
+    color: floralwhite;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
     </style>
     <section>
         <article>
             <h1>Glass Template</h1>
+            <p>Testing 1 2 3...</p>
         </article>
     </section>
+
+    <footer class="site-footer">
+       <p>&copy;<?php echo date('Y'); ?> In!house Designs</p> 
+      
+      
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+      
+      </footer>
 </body>
 </html>
