@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day Works Drop</title>
+</head>
+<body>
+        <div class="container">
+            <h1>Welcome to Day<span>Works</span>Drop</h1>
+        </div>
+
+        <!-- Start of Form -->
+    <form class="formWrap"action="" autocomplete="on">
+        <div class="formGeneral">
+            <fieldset class="general"><legend>General Work Details</legend>
+                
+                <label for="fname">Name:</label>
+                <input type="text" id="name" name="fname" placeholder="Neil Cauchi">
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="Date">
+
+                <label for="site">Site:</label>
+                <input type="text" id="site" name="Site">
+
+                <label for="loc">Location:</label>
+                <input type="text" id="loc" name="Loc">
+            </fieldset>
+        </div>
+
+       
+         <!-- Site Diary -->
+        <div class="metricsE">
+
+            <fieldset class="one"><legend>Site Works</legend>
+                
+                <div class="works">
+                    <label for="wname">Type of Works:</label>
+                    <select name="works" id="works">
+                        
+                        
+                        <optgroup label="SiteClearance">
+                            <option value="footpath"> SC: Footpath</option>
+                            <option value="Asphalt"> SC: Asphalt Clearing</option>
+                            <option value="Excavation">SC: Escavation</option>
+                        </optgroup>
+                        
+                        <optgroup label="Trenching">
+                            <option value="WSC/D"> T: WSC/D</option>
+                            <option value="Stormwater">T: Stormwater</option>
+                            <option value="Duct Works">T: Duct Works</option>
+                            <option value="Manholes">T: Manholes</option>
+                        </optgroup>
+    
+                        <optgroup label="Footpath">
+                            <option value="Kerb">F: Kerb</option>
+                            <option value="Gutter">F: Gutter</option>
+                        </optgroup>
+    
+                        <optgroup label="RoadSurface">
+                            <option value="Asphalt">RS: Asphalt Laying</option>
+                            <option value="Type1">RS: Type 1</option>
+                            <option value="Tack Coat">RS: Tack Coat</option>
+                            <option value="Saw Cut">RS: Saw Cut</option>
+                        </optgroup>
+    
+                        <optgroup label="ConcreteWorks">
+                            <option value="Block Work">CW: Concrete Blocks</option>
+                            <option value="Shutter">CW: Shutter Works</option>
+                            <option value="Concrete Fill">CW: Concrete Filling</option>
+                        </optgroup>
+    
+                        <optgroup label="Other">
+                            <option value="Not Listed 1">OW: Other Works 1</option>
+                            <option value="Not Listed 2">OW: Other Works 2</option>
+                            <option value="Not Listed 3">OW: Other Works 3</option>
+                        </optgroup>
+                    </select>
+                    
+                </div>   
+               
+
+                <div class="employees">
+                    <label for="name">Employees:</label>
+                    <input type="text" id="name" name="emp1">
+                    <input type="text" id="name" name="emp2">
+                    <input type="text" id="name" name="emp3">
+                    <input type="text" id="name" name="emp4">
+                    <input type="text" id="name" name="emp5">
+                    <input type="text" id="name" name="emp6">
+                </div>    
+
+                <div class="hours">
+                    <label for="name">Hours:</label>
+                    <input type="number" id="hours" name="ehrs1">
+                    <input type="number" id="hours" name="ehrs2">
+                    <input type="number" id="hours" name="ehrs3">
+                    <input type="number" id="hours" name="ehrs4">
+                    <input type="number" id="hours" name="ehrs5">
+                    <input type="number" id="hours" name="ehrs6">
+                </div>
+
+            </fieldset>
+        </div>
+
+        <!-- Equipment -->
+        <div class="metricsV">
+
+            <fieldset class="two"><legend>Equipment & Vehicles</legend>
+                
+                <div class="Equipment">
+                    <label for="name">Equipment:</label>
+                    <input type="text" id="name" name="veh1">
+                    <input type="text" id="name" name="veh2">
+                    <input type="text" id="name" name="veh3">
+                    <input type="text" id="name" name="veh4">
+                    <input type="text" id="name" name="veh5">
+                    <input type="text" id="name" name="veh6">
+                </div>    
+
+                <div class="hours">
+                    <label for="name">Hours:</label>
+                    <input type="number" id="hours" name="vhrs1">
+                    <input type="number" id="hours" name="vhrs2">
+                    <input type="number" id="hours" name="vhrs3">
+                    <input type="number" id="hours" name="vhrs4">
+                    <input type="number" id="hours" name="vhrs5">
+                    <input type="number" id="hours" name="vhrs6">
+                </div>
+
+            </fieldset>
+        </div>
+
+        <!-- Materials -->
+        <div class="metricsM">
+
+            
+            <fieldset class="three"><legend>Materials</legend>
+                
+                <div class="Materials">
+                    <label for="name">Materials:</label>
+                    <input type="text" id="name" name="mat1">
+                    <input type="text" id="name" name="mat2">
+                    <input type="text" id="name" name="mat3">
+                    <input type="text" id="name" name="mat4">
+                    <input type="text" id="name" name="mat5">
+                    <input type="text" id="name" name="mat6">
+                </div>    
+
+                <div class="hours">
+                    <label for="name">Hours:</label>
+                    <input type="number" id="hours" name="mhrs1">
+                    <input type="number" id="hours" name="mhrs2">
+                    <input type="number" id="hours" name="mhrs3">
+                    <input type="number" id="hours" name="mhrs4">
+                    <input type="number" id="hours" name="mhrs5">
+                    <input type="number" id="hours" name="mhrs6">
+                </div>
+
+            </fieldset>
+        </div>
+
+        <!-- Notes -->
+        
+        <div class="notes">
+            <fieldset class="four">
+                <legend>Notes Area</legend>
+                    <textarea name="message" rows="5" cols="55"> Add any notes here</textarea>
+            </fieldset>
+        </div>  
+
+
+        <input type="submit" class="btn" value="Submit">
+
+    </form>
+
+    <footer>
+        <p>Property of Carmel Vella Limited &copy; 2022</p>
+    </footer>
+
+</body>
+</html>
