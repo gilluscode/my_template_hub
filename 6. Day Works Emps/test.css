@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background: steelblue;
+  line-height: 1.2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* form styles */
+
+.formWrap {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  max-width: 680px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+/* fieldset */
+
+fieldset {
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* General Work Details Styles */
+.general {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Works category grid layout */
+.worksGrid {
+  max-width: 600px;
+  color: black;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 200px 200px 100px;
+  gap: 0.5rem;
+
+  text-align: center;
+  justify-content: center;
+}
+
+/* grid items */
+.catItem1 {
+  width: 100%;
+}
+
+.catItem1 input {
+  width: 100%;
+}
+
+.empItem2 {
+  width: 100%;
+}
+
+.empItem2 input {
+  width: 100%;
+}
+
+.hrsItem3 {
+  width: 100%;
+
+  object-fit: contain;
+}
+
+.hrsItem3 input {
+  width: 100%;
+}
+
+/* Vehicles Category */
+
+.equipGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+
+  text-align: center;
+  justify-content: center;
+}
+
+.equipment {
+  width: 100%;
+}
+
+.equipment label {
+  display: block;
+}
+
+.hours {
+  width: 100%;
+}
+
+.hours label {
+  display: block;
+}
+
+.notes textarea {
+  width: 100%;
+}
+
+/* Footer */
+footer p {
+  text-align: center;
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 12px;
+}
+
+@media (max-width: 400px) {
+  .worksGrid {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+}
