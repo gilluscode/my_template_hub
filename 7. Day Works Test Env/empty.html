@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>test form</title>
+</head>
+<body>
+    
+    <form class="dayWorkSub" action="" autocomplete="on">
+        <div class="wrapper">
+
+            <!-- title -->
+            <div class="header">
+                <h2>Betta Test Works</h2>
+            </div>
+            <!-- General Container -->
+            <div class="container">
+                <div class="heading">
+                    <h3>General Summary</h3>
+                </div>
+                
+                <div id="general" class="formGeneral">
+                    <div class="i1 name">
+                        <label for="fname">Name:</label>
+                        <input type="text" id="name" name="fname" placeholder="Neil Cauchi">
+                    </div>
+                    <div class="i2 date">
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="Date">
+                    </div>
+                    <div class="i3 site">
+                        <label for="site">Site:</label>
+                        <input type="text" id="site" name="Site">
+                    </div>
+                    <div class="i4 loc">
+                        <label for="loc">Location:</label>
+                        <input type="text" id="loc" name="Loc">
+                    </div>
+                </div>
+            </div>
+            <!-- Endo of General Container -->
+
+            <!-- Works Container -->
+            <div class="container">
+                <div class="heading">
+                    <h3>Works Summary</h3>
+                 </div>  
+                <div id="works" class="worksGrid">
+                        
+                        <div class="i1 category wrksSelection">
+                                <label for="wrks">Work:</label>
+                                <input type="text" id="works" list="eworks" name="sworks1">
+                                <input type="text" id="works" list="eworks" name="sworks2">
+                                <input type="text" id="works" list="eworks" name="sworks3">
+                                <input type="text" id="works" list="eworks" name="sworks4">
+                                <input type="text" id="works" list="eworks" name="sworks5">
+                                <input type="text" id="works" list="eworks" name="sworks6">
+                                <input type="text" id="works" list="eworks" name="sworks7">
+                                <input type="text" id="works" list="eworks" name="sworks8">
+                                <datalist id="eworks">
+                                    <option value="Clearance">
+                                    <option value="WSC/General">
+                                    <option value="WSC/Pipes">
+                                    <option value="WSC/House Services">
+                                    <option value="WSCD/General">
+                                    <option value="WSCD/Pipes">
+                                    <option value="Storm Water">
+                                    <option value="Duct Work">
+                                    <option value="Footpath/General">
+                                    <option value="Footpath/Construction">
+                                    <option value="Footpath/Extra">
+                                    <option value="Concrete">
+                                    <option value="Asphalt">
+                                    <option value="Other1">
+                                    <option value="Other2">
+                                </datalist>
+                        </div>
+
+                        <div class="i2 category employees">
+                                <label for="emps">Employees:</label>
+                                <input type="text" id="iemployees" list="employees" name="semp1"/>
+                                <input type="text" id="iemployees" list="employees" name="semp2"/>
+                                <input type="text" id="iemployees" list="employees" name="semp3"/>
+                                <input type="text" id="iemployees" list="employees" name="semp4"/>
+                                <input type="text" id="iemployees" list="employees" name="semp5"/>
+                                <input type="text" id="iemployees" list="employees" name="semp6"/>
+                                <input type="text" id="iemployees" list="employees" name="semp7"/>
+                                <input type="text" id="iemployees" list="employees" name="semp8"/>
+
+                                <datalist id="employees">
+                                    <option value="Paul Farrugia Spanner">
+                                    <option value="Jospeh Mallia Press Truck">
+                                    <option value="Neil Cauci Penca">
+                                    <option value="Usuman Balo Twila">
+                                    <option value="Ibra Bue Sule Ibe">
+                                    <option value="Drutu Andre Vlad Drutu">
+
+                                    <option value="Manuel Caruana Borom Truck">
+                                    <option value="Dean Pickstone Truck">
+                                    <option value="David Bugeja Bafflu Truck">
+                                    <option value="Carmel Cassar Karmnu">
+                                    <option value="Mario Desira Truck">
+
+                                    <option value="Zoli">
+                                    <option value="Marian">
+                                    <option value="Milan">
+                                    <option value="Rohan">
+                                    <option value="Rasa">
+                                    <option value="Joseph">
+                                    <option value="Dinoy">
+                                    <option value="Slavko">
+                                    <option value="Vlada">
+                                    <option value="Fajsu">
+                                    <option value="Indian New Salina">
+                                    <option value="Joe Malti New">
+
+                                    <option value="Max REM">
+                                    <option value="Aldi RM">
+                                    <option value="Bony RM">
+                                </datalist>
+                        </div>
+
+                        <div class="i3 category hours">
+                                <label for="name">Hours:</label>
+                                <input type="number" step="any" id="hours" name="shrs1">
+                                <input type="number" step="any" id="hours" name="shrs2">
+                                <input type="number" step="any" id="hours" name="shrs3">
+                                <input type="number" step="any" id="hours" name="shrs4">
+                                <input type="number" step="any" id="hours" name="shrs5">
+                                <input type="number" step="any" id="hours" name="shrs6">
+                                <input type="number" step="any" id="hours" name="shrs7">
+                                <input type="number" step="any" id="hours" name="shrs8">
+                              
+                            </div>
+                        </div>
+                
+            </div>
+            <!-- End of Works Container -->
+
+            <!-- Equipment -->
+            <div class="container">
+                <div class="heading">
+                    <h3>Equipment & Vehicles</h3>
+                </div>
+                    <div class="equipGrid">
+                        <div class="i1 category wrksSelection">
+                            <label for="works">Work:</label>
+                            <input list="eworks" id="worksChoice" name="vworks1"/>
+                            <input list="eworks" id="worksChoice" name="vworks2"/>
+                            <input list="eworks" id="worksChoice" name="vworks3"/>
+                            <input list="eworks" id="worksChoice" name="vworks4"/>
+                            <input list="eworks" id="worksChoice" name="vworks5"/>
+                            <input list="eworks" id="worksChoice" name="vworks6"/>
+
+                            <datalist id="eworks">
+                                <option value="Clearance">
+                                <option value="WSC">
+                                <option value="WSCD">
+                                <option value="Storm Water">
+                                <option value="Duct Work">
+                                <option value="Footpath">
+                                <option value="Concrete">
+                                <option value="Other1">
+                                <option value="Other2">
+                                <option value="Other3">
+                            </datalist>
+                        </div>
+
+
+                        <div class="i2 equipment category">
+                            <label for="name">Equipment:</label>
+                            <input type="text" id="name" name="veh1">
+                            <input type="text" id="name" name="veh2">
+                            <input type="text" id="name" name="veh3">
+                            <input type="text" id="name" name="veh4">
+                            <input type="text" id="name" name="veh5">
+                            <input type="text" id="name" name="veh6">
+                        </div>    
+
+                        <div class="i3 hours category">
+                            <label for="name">Hours:</label>
+                                <input type="number" step="any" id="hours" name="vhrs1">
+                                <input type="number" step="any" id="hours" name="vrs2">
+                                <input type="number" step="any" id="hours" name="vhrs3">
+                                <input type="number" step="any" id="hours" name="vhrs4">
+                                <input type="number" step="any" id="hours" name="vhrs5">
+                                <input type="number" step="any" id="hours" name="vhrs6">
+                                
+                        </div>
+                    </div>
+            </div>
+
+            <!-- Notes -->   
+            <div class="container">
+                <div class="heading">
+                    <h3>Notes Area</h3>
+                </div>
+                <br>
+                <div class="notes">
+                    <textarea name="message" rows="5" cols="65" name="message"> Add any notes here...</textarea>
+                </div>  
+            </div>  
+            <!-- End of Notes -->
+        <div class="btn container">  
+        <input type="submit" class="btn" value="Submit">
+        </div>
+        </div>
+        
+    </form>
+
+    <footer>
+        <p>Property of Carmel Vella Limited &copy; 2022</p>
+    </footer>
+
+
+
+</body>
+</html>

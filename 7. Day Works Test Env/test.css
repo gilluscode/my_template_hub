@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #080807;
+}
+
+.heading {
+  background: #add8e6;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.wrapper {
+  max-width: 700px;
+  background: #fff;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+input {
+  padding: 10px;
+  margin: 1px;
+}
+
+/* Header */
+.header {
+  background: #4682b4;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.header h2 {
+  align-items: center;
+  text-align: center;
+}
+
+/* General Container */
+.formGeneral {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.formGeneral .i1,
+.i2,
+.i3,
+.i4,
+.i5 {
+  margin: auto;
+  padding: 5px;
+  background: #fff;
+}
+
+.formGeneral label {
+  display: block;
+  width: 90%;
+}
+
+.formGeneral input {
+  width: 90%;
+}
+
+/* Works Container */
+
+.container {
+  width: 80%;
+  margin: auto;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.container h3 {
+  text-align: left;
+}
+
+.category {
+  display: block;
+  width: 100%;
+  background: #fff;
+  color: #333;
+  padding: 0;
+}
+
+.worksGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.worksGrid .category input {
+  width: 100%;
+}
+
+.worksGrid h3 {
+  display: inline-block;
+  width: 100%;
+}
+
+/* Equipment */
+
+.equipGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.equipGrid .category input {
+  width: 100%;
+}
+
+/* Notes */
+
+.notes {
+  display: block;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  object-fit: contain;
+}
+
+.btn input {
+  width: 100%;
+}
+
+/* Footer */
+footer p {
+  font-weight: 200;
+  text-align: center;
+  margin-top: 10px;
+  color: #333;
+  font-size: 12px;
+}
+
+/* Mobile Version */
+
+@media (max-width: 500px) {
+  .wrapper {
+    max-width: 460px;
+  }
+  /* Works Summary */
+  .worksGrid {
+    grid-template-columns: 35% 35% 25%;
+    object-fit: contain;
+  }
+
+  .category {
+    margin: auto;
+  }
+
+  .container h3 {
+    text-align: center;
+  }
+
+  .worksGrid label {
+    display: block;
+  }
+
+  .worksGrid input {
+    width: 100%;
+  }
+
+  /* Equipment Summary */
+  .equipGrid {
+    grid-template-columns: 35% 35% 25%;
+    object-fit: contain;
+  }
+
+  .equipGrid label {
+    display: block;
+  }
+
+  .equipGrid input {
+    width: 100%;
+  }
+
+  .notes {
+    width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+  }
+
+  textarea {
+    max-width: 350px;
+  }
+}
